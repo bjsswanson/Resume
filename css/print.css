@@ -1,0 +1,449 @@
+.content {
+	margin-top: 26mm;
+}
+
+.page {
+	position: relative;
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: 0 auto;
+    border: 1px #D3D3D3 solid;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+	font-family: Arial;
+	font-size: 3.53mm;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25.4mm;
+	height: 100%;
+	background-color: #afaeae;
+}
+
+.resume {
+	position: absolute;
+	color: #ffffff;
+	font-size: 4.23mm;
+	top: 8.4mm;
+	left: 8.0mm;
+}
+
+.section {
+	position: relative;
+	margin: 0;
+	margin-bottom: 10mm;
+	padding: 0;
+	width:100%;
+	clear: both;
+
+}
+
+.sidebarContent {
+	float: left;
+	width: 26.4mm;
+	text-align: right;
+	font-size: 4.23mm;
+	text-transform: uppercase;
+}
+
+.sidebarContent div {
+	color: #696969;
+}
+
+.sidebarContent div:first-child {
+	color: #ffffff;
+}
+
+.sidebarContent .rotate {
+	float: right;
+	-webkit-transform: rotate(-90deg) translate(0%, -100%);
+	-webkit-transform-origin:100% 0;
+    -moz-transform: rotate(-90deg);
+    /*transform:rotate(-90deg);*/
+	padding-bottom: 3.2mm;
+}
+
+.mainContent {
+	margin-left: 25.4mm;
+	padding-left: 8.5mm;
+	overflow: auto;
+}
+
+.name {
+	float:left;
+	margin-top: -5px;
+}
+
+.name h1 {
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0;
+}
+
+.name h3 {
+	color: #84c44d;
+	margin: 0;
+	font-weight: lighter;
+}
+
+.social {
+	float:right;
+	padding-right: 20mm;
+	/*color: #9e9e9e;*/
+	color: #000000;
+	vertical-align: middle;
+}
+
+.social ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	display: block;
+}
+
+.social .indent {
+	padding-left: 5mm;
+	padding-bottom: 1.7mm;
+}
+
+.website {
+	background-image: url('../img/web.png');
+}
+
+.email {
+	background-image: url('../img/email.png');
+}
+
+.facebook {
+	background-image: url('../img/fb.png');
+}
+
+.twitter {
+	background-image: url('../img/tw.png');
+}
+
+.gplus {
+	background-image: url('../img/gplus.png');
+}
+
+.github {
+	background-image: url('../img/github.png');
+}
+
+.stackoverflow {
+	background-image: url('../img/stackoverflow.png');
+}
+
+.line {
+	position: relative;
+	border-left: 1px solid #92ca61;
+}
+
+.line:before {
+	position: absolute;
+	top: 0;
+	left: -3.1mm;
+	width: 6.2mm;
+	height: 6.2mm;
+	content: '';
+	background-size: 6.2mm 6.2mm;
+	background-repeat: no-repeat;
+}
+
+.icon {
+	background-size: 3.4mm 3.4mm;
+	background-repeat: no-repeat;
+	padding-left: 5mm;
+	padding-bottom: 1.7mm;
+}
+
+.employment.line:before {
+	background-image: url('../img/employment.png');
+}
+
+.education.line:before {
+	background-image: url('../img/education.png');
+}
+
+.skills.line:before {
+	background-image: url('../img/skills.png');
+}
+
+.employment {
+	min-height: 120px;
+	position: relative;
+}
+
+.employment .jobs {
+	overflow: auto;
+}
+
+.employment .job {
+	float: left;
+	padding-bottom: 4.2mm;
+}
+
+.employment .job:last-child {
+	padding-bottom: 0;
+}
+
+.employment .dates {
+	float: left;
+	color: #7f7f7f;
+	padding-left: 6.2mm;
+}
+
+.employment .employmentContent {
+	float: left;
+	width: 75%;
+	padding-left: 5.2mm;
+}
+
+.employment h3 {
+	margin-top: 0;
+	float: left;
+	color: #84c44d;
+}
+
+.employment h2 {
+	font-size: 5.64mm;
+	color: #000000;
+	clear: both;
+	width: 120mm
+}
+
+.employment .employmentContent span {
+	color: #7f7f7f;
+	font-size: 2.82mm;
+	float: left;
+	padding-left: 2.1mm;
+	padding-top: 0.8mm;
+	font-style: oblique;
+}
+
+.employment .employmentContent p {
+	color: #000000;
+}
+
+.education {
+	float: left;
+	width:50%;
+}
+
+.education h3 {
+	margin: 0;
+	color: #84c44d;
+}
+
+.education .schools {
+	padding-left: 6.2mm;
+}
+
+.education .school {
+	margin-bottom: 6.2mm;
+}
+
+.education .school:last-child {
+	margin-bottom: 0;
+}
+
+.education .school span {
+	color: #7f7f7f;
+	font-size: 2.82mm;
+	padding-top: 0.8mm;
+	font-style: oblique;
+}
+
+.education .school p {
+	margin-top: 2mm;
+	margin-bottom: 1mm;
+	color: #000000;
+}
+
+.education .school strong {
+	color: #7f7f7f;
+}
+
+.skills {
+	float:left;
+	color: #7f7f7f;
+}
+
+.skill {
+	padding-left: 6.2mm;
+	margin-bottom: 4.2mm;
+	width: 34mm;
+}
+
+.skills .skill:last-child {
+	margin-bottom: 0;
+}
+
+.skill img {
+	width: 32mm;
+	float: right;
+}
+
+.skill:after {
+	position: absolute;
+	right: -40mm;
+	width: 30mm;
+	height: 4mm;
+	content: '';
+	background-size: 30mm;
+	background-repeat: no-repeat;
+}
+
+.skillAlt {
+	padding-left: 12mm;
+	margin-bottom: 4.2mm;
+	width: 68mm;
+}
+.skillAlt h3 {
+	margin-bottom: 1mm;
+	margin-top: 1mm;
+	color: #000000;
+}
+
+.skillAlt span {
+	display: block;
+	font-style: oblique;
+	color: #7f7f7f;
+}
+
+.skillAlt:before {
+	position: absolute;
+	left: 6mm;
+	width: 5mm;
+	height: 5mm;
+	content: '';
+	background-size: 5mm 5mm;
+	background-repeat: no-repeat;
+	background-image: url('../img/star.png');
+}
+
+.skillAlt:last-child {
+	margin-bottom: 0;
+}
+
+.star1:after {
+	background-image: url('../img/star_1.png');
+}
+
+.star2:after {
+	background-image: url('../img/star_2.png');
+}
+
+.star3:after {
+	background-image: url('../img/star_3.png');
+}
+
+.star4:after {
+	background-image: url('../img/star_4.png');
+}
+
+.star5:after {
+	background-image: url('../img/star_5.png');
+}
+
+.emailGrey {
+	background-image: url('../img/email_grey.png');
+}
+
+.websiteGrey {
+	background-image: url('../img/web_grey.png');
+}
+
+.phone {
+	background-image: url('../img/phone.png');
+}
+
+.phoneGrey {
+	background-image: url('../img/phone_grey.png');
+}
+
+.contacts {
+	color: #000000;
+	float:left;
+	width: 50%;
+}
+
+.address {
+	float:left;
+	background-image: url('../img/address.png');
+}
+
+.addressGrey {
+	float:left;
+}
+
+.addressGrey:before {
+	background-image: url('../img/address_grey.png');
+}
+
+.addressGrey.line {
+	border-left: 1px solid #646363;
+}
+
+.addressContent {
+	padding-left: 6.2mm;
+}
+
+.addressContent div {
+	padding-bottom: 2mm;
+}
+
+.addressContent div:last-child {
+	padding-bottom: 0;
+}
+
+.profile {
+	position: relative;
+}
+
+.profile.line:before {
+	background-image: url('../img/education.png');
+}
+
+.profileText {
+	padding-left: 6.2mm;
+	width: 90%;
+}
+
+.profileText p {
+	margin-top: 0;
+}
+
+
+.references {
+	min-height: 32mm;
+}
+
+.references h3 {
+	margin-top: 0;
+}
+
+.question {
+	min-height: 30mm;
+}
+
+.question h3 {
+	margin-top: 0;
+	color: #84c44d;
+}
