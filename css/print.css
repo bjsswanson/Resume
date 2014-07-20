@@ -447,3 +447,14 @@ ul {
 	margin-top: 0;
 	color: #84c44d;
 }
+
+.question {
+	padding-right: 8.5mm; /* This should be on all of them but putting it only on question temporarily */
+}
+
+.page.tree {
+	background-image: url('../img/tree_green.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
